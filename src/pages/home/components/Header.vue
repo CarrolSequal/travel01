@@ -6,15 +6,15 @@
    -->
   <div class="header">
     <div class="header-left">
-      <span class="iconfont backIcon">&#xe624;</span>  
+      <span class="iconfont backIcon">&#xe624;</span>
     </div>
     <div class="header-input">
-      <span class="iconfont">&#xe632;</span> 
+      <span class="iconfont">&#xe632;</span>
       city/sight/theme
     </div>
     <div class="header-right">
       city
-      <span class="iconfont arrowIcon">&#xe6aa;</span> 
+      <span class="iconfont arrowIcon">&#xe6aa;</span>
     </div>
   </div>
 </template>
