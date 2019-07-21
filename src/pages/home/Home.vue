@@ -1,10 +1,8 @@
 <template>
   <div>
-    <!-- hola mundo -->
     <home-header></home-header>
     <home-swiper></home-swiper>
     <home-icons></home-icons>
-    <!-- <div>hola</div> -->
   </div>
 </template>
 
