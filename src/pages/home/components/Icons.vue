@@ -50,11 +50,7 @@ export default {
           id: '0008',
           imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png',
           desc: 'Island'
-        },{
-          id: '0009',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png',
-          desc: 'Idfaland'
-      }]
+        }]
     }
   },
   computed:{
