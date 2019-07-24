@@ -13,7 +13,7 @@
       city/sight/theme
     </div>
     <div class="header-right">
-      city
+      {{this.city}}
       <span class="iconfont arrowIcon">&#xe6aa;</span>
     </div>
   </div>
@@ -21,7 +21,10 @@
 
 <script>
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  props: {
+    city: String
+  }
 }
 </script>
 

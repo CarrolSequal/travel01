@@ -2,7 +2,7 @@
   <div>
     <div class="title">RECOMMEND</div>
     <ul>
-      <li class="item border-bottom" v-for="(item,index) of reommendList" :key="index">
+      <li class="item border-bottom" v-for="(item,index) of list" :key="index">
           <img class="item-img" :src='item.imgUrl' />
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -17,24 +17,27 @@
 <script>
 export default {
   name: 'HomeRecommend',
+  props: {
+    list: Array
+  },
   data () {
     return {
-      reommendList: [{
-      id: '0001',
-      imgUrl: 'http://img1.qunarzz.com/sight/p0/1503/b4/b4834f16bc8f8091.water.jpg_200x200_be5f7395.jpg',
-      title: '珠海长隆海洋王国',
-      desc: '广东省珠海市横琴新区富祥湾'
-    },{
-      id: '0002',
-      imgUrl: 'http://img1.qunarzz.com/sight/p0/1503/b4/b4834f16bc8f8091.water.jpg_200x200_be5f7395.jpg',
-      title: '珠海长隆海洋王国',
-      desc: '广东省珠海市横琴新区富祥湾'
-    },{
-      id: '0003',
-      imgUrl: 'http://img1.qunarzz.com/sight/p0/1503/b4/b4834f16bc8f8091.water.jpg_200x200_be5f7395.jpg',
-      title: '珠海长隆海洋王国',
-      desc: '广东省珠海市横琴新区富祥湾'
-    }]
+    //   recommendList: [{
+    //   id: '0001',
+    //   imgUrl: 'http://img1.qunarzz.com/sight/p0/1503/b4/b4834f16bc8f8091.water.jpg_200x200_be5f7395.jpg',
+    //   title: '珠海长隆海洋王国',
+    //   desc: '广东省珠海市横琴新区富祥湾'
+    // },{
+    //   id: '0002',
+    //   imgUrl: 'http://img1.qunarzz.com/sight/p0/1503/b4/b4834f16bc8f8091.water.jpg_200x200_be5f7395.jpg',
+    //   title: '珠海长隆海洋王国',
+    //   desc: '广东省珠海市横琴新区富祥湾'
+    // },{
+    //   id: '0003',
+    //   imgUrl: 'http://img1.qunarzz.com/sight/p0/1503/b4/b4834f16bc8f8091.water.jpg_200x200_be5f7395.jpg',
+    //   title: '珠海长隆海洋王国',
+    //   desc: '广东省珠海市横琴新区富祥湾'
+    // }]
     }
   }
 }
