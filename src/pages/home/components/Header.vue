@@ -14,7 +14,7 @@
     </div>
     <router-link to='/city'>
       <div class="header-right">
-        {{this.city}}
+        Berlin{{this.city}}
         <span class="iconfont arrowIcon">&#xe6aa;</span>
       </div>
     </router-link>
