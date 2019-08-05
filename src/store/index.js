@@ -14,10 +14,10 @@ export default new Vuex.Store({
   //   }
   // },
   // mutations: mutations
-  mutations,
-  getters: {
-    doubleCity (state) {
-      return state.city + ' ' + state.city
-    }
-  }
+  mutations
+  // getters: {
+  //   doubleCity (state) {
+  //     return state.city + ' ' + state.city
+  //   }
+  // }
 })
