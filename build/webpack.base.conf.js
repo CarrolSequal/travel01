@@ -35,7 +35,8 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       '@': resolve('src'),
-      'style': resolve('src/assets/style')
+      'style': resolve('src/assets/style'),
+      'common': resolve('src/common')
     }
   },
   module: {
