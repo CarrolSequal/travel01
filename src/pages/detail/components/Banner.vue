@@ -16,7 +16,7 @@
   </div>
 </template>
 
-<script> 
+<script>
 import CommonGallary from 'common/gallary/Gallary'
 export default {
   name: 'DetailBanner',
