@@ -2,7 +2,9 @@
   <div class="container" @click="handleGallaryClick">
     <div class="wrapper">
       <swiper :options="swiperOptions">
-        <swiper-slide v-for="(item, index) in imgs" :key="index">
+        <swiper-slide 
+          v-for="(item, index) in imgs"
+          :key="index">
           <img class="gallary-img" :src="item" />
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
@@ -27,7 +29,7 @@ export default {
       swiperOptions: {
         pagination: '.swiper-pagination',
         paginationType: 'fraction',
-        observerParents: true,
+        observeParents: true,
         observer: true
       }
     }

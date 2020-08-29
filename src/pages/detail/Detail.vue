@@ -6,7 +6,7 @@
       :gallaryImgs="gallaryImgs">
     </detail-banner>
     <detail-header></detail-header>
-    <div class="container">
+    <div class="content">
       <detail-list :list="list"></detail-list>
     </div>
   </div>
@@ -27,7 +27,7 @@ export default {
   data () {
     return {
       sightName: '',
-      bannerImg: 'bannerImg',
+      bannerImg: '',
       gallaryImgs: [],
       list: []
     }
@@ -58,7 +58,7 @@ export default {
 </script>
 
 <style lang='stylus' scoped>
-  .container
+  .content
     height: 50rem
 
 </style>
